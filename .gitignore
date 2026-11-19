@@ -1,0 +1,59 @@
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE / редакторы ---
+.idea/
+.vscode/
+*.iml
+*.swp
+*~
+
+# --- Flutter / Dart ---
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.g.dart
+*.freezed.dart
+generated_plugin_registrant.dart
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+android/.gradle/
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/key.properties
+*.jks
+*.keystore
+
+# --- Node / React Native (альтернативный стек) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.expo/
+.expo-shared/
+coverage/
+
+# --- Firebase / секреты ---
+google-services.json
+GoogleService-Info.plist
+.env
+.env.*
+!.env.example
+firebase_options.dart
+
+# --- Прочее ---
+*.log
+*.tmp
+*.bak

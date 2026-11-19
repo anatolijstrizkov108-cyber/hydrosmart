@@ -1,0 +1,19 @@
+# Автоматически нормализовать переводы строк
+* text=auto eol=lf
+
+# Явно указать бинарные файлы
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+
+# Скрипты — LF
+*.sh text eol=lf
+*.bat text eol=crlf
